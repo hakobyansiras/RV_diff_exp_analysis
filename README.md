@@ -14,13 +14,7 @@ This repository contains the analysis code and necessary files to reproduce the 
 
 - **Custom GTF generation script**  
   Code used to generate a custom GTF file following the approach described by Sigurgeirsson et al.  
-  [DOI: 10.1371/journal.pone.0091851](https://doi.org/10.1371/journal.pone.0091851)
-
-## 📥 Reference Files
-
-The GTF file used in the custom read-counting step:  
-**`Mus_musculus.GRCm39.110.gtf`**  
-You can download this file from the [Ensembl](https://www.ensembl.org) or [NCBI](https://www.ncbi.nlm.nih.gov) genome database.
+  [DOI: 10.1371/journal.pone.0091851](https://doi.org/10.1371/journal.pone.0091851). The original Mus_musculus.GRCm39.110.gtf file used in the script can be downloaded from the Ensembl or NCBI genome databases.
 
 ## 📦 Requirements
 
