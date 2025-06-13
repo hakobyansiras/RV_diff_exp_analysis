@@ -1,0 +1,53 @@
+> sessionInfo()
+R version 4.3.0 (2023-04-21)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.6 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.9.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.9.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8    LC_NUMERIC=C            LC_TIME=hy_AM           LC_COLLATE=en_US.UTF-8  LC_MONETARY=hy_AM      
+ [6] LC_MESSAGES=en_US.UTF-8 LC_PAPER=hy_AM          LC_NAME=C               LC_ADDRESS=C            LC_TELEPHONE=C         
+[11] LC_MEASUREMENT=hy_AM    LC_IDENTIFICATION=C    
+
+time zone: Asia/Yerevan
+tzcode source: system (glibc)
+
+attached base packages:
+[1] grid      stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] ComplexHeatmap_2.16.0       enrichR_3.2                 UpSetR_1.4.0                fgsea_1.26.0               
+ [5] googlesheets4_1.1.1         ggpubr_0.6.0                reshape2_1.4.4              psf_0.2                    
+ [9] EnhancedVolcano_1.18.0      ggrepel_0.9.3               dplyr_1.1.2                 ggplot2_3.5.0              
+[13] data.table_1.14.8           DESeq2_1.42.0               SummarizedExperiment_1.30.2 Biobase_2.60.0             
+[17] MatrixGenerics_1.14.0       matrixStats_1.0.0           GenomicRanges_1.52.0        GenomeInfoDb_1.36.0        
+[21] IRanges_2.34.0              S4Vectors_0.38.1            BiocGenerics_0.46.0        
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3      rstudioapi_0.14         jsonlite_1.8.4          shape_1.4.6             magrittr_2.0.3         
+  [6] magick_2.7.4            farver_2.1.1            GlobalOptions_0.1.2     fs_1.6.2                zlibbioc_1.46.0        
+ [11] vctrs_0.6.2             memoise_2.0.1           RCurl_1.98-1.12         rstatix_0.7.2           htmltools_0.5.5        
+ [16] S4Arrays_1.2.1          progress_1.2.2          curl_5.0.0              broom_1.0.5             cellranger_1.1.0       
+ [21] SparseArray_1.2.4       KernSmooth_2.23-20      htmlwidgets_1.6.2       plyr_1.8.8              plotly_4.10.1          
+ [26] cachem_1.0.8            igraph_2.0.3            iterators_1.0.14        mime_0.12               lifecycle_1.0.3        
+ [31] pkgconfig_2.0.3         Matrix_1.6-4            R6_2.5.1                fastmap_1.1.1           clue_0.3-65            
+ [36] GenomeInfoDbData_1.2.10 shiny_1.7.4             digest_0.6.31           colorspace_2.1-0        patchwork_1.2.0.9000   
+ [41] AnnotationDbi_1.62.1    RSQLite_2.3.1           WriteXLS_6.6.0          labeling_0.4.2          filelock_1.0.2         
+ [46] fansi_1.0.4             httr_1.4.6              abind_1.4-5             compiler_4.3.0          gargle_1.5.2           
+ [51] doParallel_1.0.17       bit64_4.0.5             withr_2.5.0             backports_1.4.1         BiocParallel_1.34.2    
+ [56] carData_3.0-5           DBI_1.1.3               gplots_3.1.3            ggsignif_0.6.4          biomaRt_2.56.0         
+ [61] rappdirs_0.3.3          DelayedArray_0.28.0     rjson_0.2.21            gtools_3.9.4            caTools_1.18.2         
+ [66] tools_4.3.0             googledrive_2.1.1       httpuv_1.6.11           glue_1.6.2              promises_1.2.0.1       
+ [71] cluster_2.1.4           generics_0.1.3          gtable_0.3.3            tidyr_1.3.0             hms_1.1.3              
+ [76] xml2_1.3.4              car_3.1-2               utf8_1.2.3              XVector_0.40.0          foreach_1.5.2          
+ [81] pillar_1.9.0            stringr_1.5.0           later_1.3.1             circlize_0.4.16         BiocFileCache_2.8.0    
+ [86] lattice_0.21-8          bit_4.0.5               tidyselect_1.2.0        locfit_1.5-9.8          Biostrings_2.68.1      
+ [91] gridExtra_2.3           visNetwork_2.1.2        stringi_1.7.12          lazyeval_0.2.2          codetools_0.2-19       
+ [96] tibble_3.2.1            graph_1.78.0            cli_3.6.1               xtable_1.8-4            munsell_0.5.0          
+[101] Rcpp_1.0.10             dbplyr_2.3.2            png_0.1-8               XML_3.99-0.14           parallel_4.3.0         
+[106] ellipsis_0.3.2          blob_1.2.4              prettyunits_1.1.1       bitops_1.0-7            viridisLite_0.4.2      
+[111] scales_1.3.0            purrr_1.0.1             crayon_1.5.2            GetoptLong_1.0.5        rlang_1.1.1            
+[116] fastmatch_1.1-4         cowplot_1.1.1           KEGGREST_1.40.0         shinyjs_2.1.0          
