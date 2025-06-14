@@ -75,7 +75,8 @@ plotPCA(vst(dds, blind=FALSE), intgroup="group_age_combined") +
     panel.grid.minor = element_blank()
   )
 
-
+ggsave("Figure1.png",
+       units="in", width=10/1.5, height=7/1.5, dpi=320, device = "png", bg = "white")
 
 ### Pefroming ANOVA test on PCs
 right_ventrical_rad_norm_counts <- assay(vst(dds, blind=F))
@@ -269,10 +270,13 @@ library(ComplexHeatmap)
 ann <- HeatmapAnnotation(df = data.frame(Group = coldata$group_age_combined, row.names = coldata$sample_id), 
                          col = list(Group = setNames(object = palette_colors, nm = levels(coldata$group_age_combined))[as.character(coldata$group_age_combined)]))
 
+png("Figure3.png",width=10/1.5,height=7/1.5,units="in",res=320, bg = "white")
+
 Heatmap(assay(vst(dds, blind=FALSE))[rv_rad_selected_heatmap_genes,]/rowMeans(assay(vst(dds, blind=FALSE))[rv_rad_selected_heatmap_genes,]), top_annotation = ann,
         show_row_names = F,
         cluster_columns = F, name = "Norm counts",  heatmap_legend_param = list(labels_gp = gpar(fontsize = 12)) )
 
+dev.off()
 
 
 
